@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	
+<title>Conoce más</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #B1D483;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #F3EAAF;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 1000px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #B1D483;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.pp {
+	text-align: justify;
+	}
+}
+</style>
+</head>
+<body>
+<div>
+<h2>¡Bienvenido a Filo!</h2>
+<p class="pp" style="width: 60%">En esta página encontrarás información sobre la Facultad de Filosofía y Letras de la UANL. Si te interesa la literatura y las humanidades te invitamos a conocer las instalaciones de la facultad a tráves de un recorrido virtual y videos mostrando el lado más cotidiano de la facultad.  </p>
+<p class="pp" style="width: 60%"> Además de conocer la oferta educativa para decidir tu futuro profesional, podrás resolver un cuestionario de información básica para ganar un tour presencial y una foto en el unicornio. </p>
+
+<header>
+  <h2>Conoce más</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="facultad.html">Conoce la facultad</a></li>
+      <li><a href="conocemas.html">Conoce más</a></li>
+      <li><a href="cuanto.html">¿Cuánto sabes de filo?</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Mira este tik tok, este es el lado más cotidiano de la facultad:</h1>
+    
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@viadneey5/video/7302208640373509381" data-video-id="7302208640373509381" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@viadneey5" href="https://www.tiktok.com/@viadneey5?refer=embed">@viadneey5</a> <p></p> <a target="_blank" title="♬ sonido original - viadneey" href="https://www.tiktok.com/music/sonido-original-7302208653690686213?refer=embed">♬ sonido original - viadneey</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
+  </article>
+</section>
+
+<footer>
+  <p><a href="https://www.uanl.mx/dependencias/facultad-de-filosofia-y-letras/">Conoce más</p>
+</footer>
+
+</body>
+
+</html>

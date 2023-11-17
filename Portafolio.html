@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+
+<style>
+
+.galeria {
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+</style>
+
+
+<html lang="en">
+<head>
+	
+<title>Portafolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #000;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 670px;
+  background: #666;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 300px) {
+  nav, article {
+    width: 100%;
+    height: 100%;
+  }
+@media (max-width) {
+  nav{
+    height: 100%;
+  }
+}
+}
+</style>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.3 %;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1400px) {
+  .column {
+    width: 33.3%
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+.pp {
+  text-align: justify;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Leonardo Rangel Cantú</h2>
+<p class="pp" style="width: 60%">Leonardo Rangel Cantú, tiene 25 años, originario de Monterrey, Nuevo León. Es narrador, artista plástico y productor teatral. Becario del Centro de Creación Literaria Universitaria 2022 en la categoría de cuento. Como artista plástico se especializa en arte figurativo y retrato en diferentes técnicas: óleo, carboncillo, grabado, tinta china y escultura. Es miembro fundador de la compañía independiente Dialekto Teatro, en donde también funge como actor, escenógrafo y productor..</p>
+<p>Actualmente cursa la licenciatura en Edición y Gestión de la Cultura en la Facultad de Filosofía y Letras de la UANL.</p>
+
+<header>
+  <h2>Sobre mí</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="historia lab.html">Historia laboral</a></li>
+      <li><a href="Formacion.html">Formación</a></li>
+      <li><a href="Contacto.html">Contacto</a></li>
+      <li><a href="Portafolio.html">Portafolio</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <!-- MAIN (Center website) -->
+<div class="main">
+
+
+<h2>PORTAFOLIO</h2>
+<p>Servicios</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="imagen1.jpeg" alt="Mountains" style="width:100%">
+      <h3>Retratos</h3>
+      <p>Retratos de personas o animales al oleo, carboncillo y tecnicas mixtas</p>
+    </div>
+  </div>
+ 
+  <div class="column">
+    <div class="content">
+    <img src="imagen2.jpeg" alt="Nature" style="width:100%">
+      <h3>Decoraciones</h3>
+      <p>Cuadros decorativos bajo demando en diferentes tecnicas.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="imagen3.jpeg" alt="Mountains" style="width:100%">
+      <h3>Ilustraciones</h3>
+      <p>Ilustraciones para proyectos editoriales y graficos en carbonicllo, linoleo y tecnicas humedas</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+
+<!-- END MAIN -->
+</div>
+  </article>
+</section>
+
+<footer>
+  <p><a href="https://www.instagram.com/leonardorangel_c/">Conoce más</p>
+</footer>
+
+</body>
+
+</html>

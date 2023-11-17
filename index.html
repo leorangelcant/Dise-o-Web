@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	
+<title>Página principal</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #B1D483;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 1015px; /* only for demonstration, should be removed */
+  background: #F3EAAF;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 2000 px /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #B1D483;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.pp {
+	text-align: justify;
+	}
+}
+</style>
+</head>
+<body>
+<div>
+<h2>¡Bienvenido a Filo!</h2>
+<p class="pp" style="width: 60%">En esta página encontrarás información sobre la Facultad de Filosofía y Letras de la UANL. Si te interesa la literatura y las humanidades te invitamos a conocer las instalaciones de la facultad a tráves de un recorrido virtual y videos mostrando el lado más cotidiano de la facultad.  </p>
+<p class="pp" style="width: 60%"> Además de conocer la oferta educativa para decidir tu futuro profesional, podrás resolver un cuestionario de información básica para ganar un tour presencial y una foto en el unicornio. </p>
+
+<header>
+  <h2>Oferta educativa</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="facultad.html">Conoce la facultad</a></li>
+      <li><a href="conocemas.html">Conoce más</a></li>
+      <li><a href="cuanto.html">¿Cuánto sabes de filo?</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Conoce los nuevo colegios de la facultad y su perfil de ingreso</h1>
+    <h2>Edición y gestión de la cultura</h2>
+    <p>Quien aspire a ingresar a la Licenciatura en Edición y Gestión de la Cultura deberá contar con las siguientes características formativas.</p>
+     <h2>Educación</h2>
+    <p>Formar profesionales en Educación con una visión integral de los procesos educativos, en los contextos global y local; capaces de investigar, evaluar, diseñar, gestionar e intervenir en proyectos educativos de calidad en lo individual y social.</p>
+    <h2>Filosofía</h2>
+     <p>Formar profesionales en Filosofía que sean competentes para la investigación, la enseñanza, la difusión del pensamiento filosófico y la redacción de textos desde diferentes enfoques teóricos y prácticos</p>
+     <h2>Gestión de la información y recursos digitales</h2>
+     <p>Formar profesionales en Gestión de la Información y Recursos Digitales, capaces de sistematizar la información, considerando formatos, fuentes, procesos y tecnologías digitales.</p>
+     <h2>Historia</h2>
+     <p>Formar profesionales en Historia competentes en la interpretación del pasado de las sociedades con base en el estudio del desarrollo de la historiografía.</p>
+     <h2>Letras hispánicas</h2>
+     <p>Quien aspire a ingresar a la Licenciatura en Letras Hispánicas deberá contar con las siguientes características formativas.</p>
+     <h2>Lingüística aplicada a la enseñanza y traducción del francés</h2>
+     <p>Quien aspire a ingresar a la Licenciatura en Lingüística Aplicada a la Enseñanza y Traducción del Francés deberá contar con las siguientes características formativas.</p>
+     <h2>Lingüística aplicada a la enseñanza y traducción del inglés</h2>
+     <p>Formar profesionales en Lingüística Aplicada a la Enseñanza y Traducción del Inglés que egresen al menos con un nivel C1*  en el dominio del inglés, con un enfoque integral hacia la enseñanza y traducción de este idioma.</p>
+     <h2>Sociología</h2>
+     <p>Formar profesionales en Sociología capaces de intervenir en la realidad desde la investigación de las estructuras y los actores, a partir del diagnóstico social para evaluar la pertinencia de programas y proyectos sociopolíticos.</p>
+  </article>
+</section>
+
+<footer>
+  <p><a href="https://www.uanl.mx/dependencias/facultad-de-filosofia-y-letras/">Conoce más</p>
+</footer>
+
+</body>
+
+</html>
